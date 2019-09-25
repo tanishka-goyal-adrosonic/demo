@@ -1,0 +1,53 @@
+.wrapper {
+  width: 80%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  background: #0e598f;
+  box-shadow: 0 0 10px rgba(55, 55, 55, 0.5);
+  color: #E4DFDA;
+  border-radius: 15px;
+}
+
+.bg {
+    background-color: aquamarine;
+}
+.bg1 {
+    background-image: url('../../assets/dp3.png');
+    background-size: cover;
+}
+
+.bg2 {
+    background-image: url('../../assets/dp.png');
+    background-size: cover;
+    background-position: right
+}
+
+.bg3 {
+    background-image: url('../../assets/dp2.png');
+    background-size: cover;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+  margin-top: -50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.username {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: cursive;
+}
+
