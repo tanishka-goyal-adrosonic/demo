@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
-// import AddToHomeScreen from 'a2hs.js'
+import AddToHomeScreen from 'a2hs.js'
 
 ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
 
@@ -14,7 +14,7 @@ ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 // serviceWorker.unregister();
 
-// AddToHomeScreen();
+AddToHomeScreen();
 
 /* Notification service worker check */
 const check = () => {
