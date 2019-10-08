@@ -62,7 +62,6 @@ self.addEventListener('fetch', function(event) {
     console.log('Fetch intercepted for: ', event.request.urlsToCache);
 });
 
-
 /*
 =======================================
 
